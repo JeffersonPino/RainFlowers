@@ -30,28 +30,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/menu_jquery.js"></script>
 <script src="js/simpleCart.min.js"> </script>
 <link href="css/form.css" rel="stylesheet" type="text/css" media="all" />
-<!--etalage-->
-<link rel="stylesheet" href="css/etalage.css">
-<script src="js/jquery.etalage.min.js"></script>
-<script>
-			jQuery(document).ready(function($){
 
-				$('#etalage').etalage({
-					thumb_image_width: 300,
-					thumb_image_height: 400,
-					source_image_width: 900,
-					source_image_height: 1200,
-					show_hint: true,
-					click_callback: function(image_anchor, instance_id){
-						alert('Callback example:\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
-					}
-				});
-
-			});
-		</script>
-
-
-<!-- //etalage-->
   
 </head>
 <body>
@@ -68,7 +47,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="top_left">
 				<ul>
-					<li class="top_link">Email:<a href="mailto@example.com"> info(at)Mobilya.com</a></li>|
+					<li class="top_link">Email: <a href="mailto@example.com">info(at)Mobilya.com</a></li>|
 					<li class="top_link"><a href="login.html">My Account</a></li>|					
 				</ul>
 				<div class="social">
@@ -595,112 +574,212 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	  </div>
 </div>
 <!---->
-<div class="single-sec">
+<!--header//-->
+<div class="product-model">	 
 	 <div class="container">
-		 <ol class="breadcrumb">
-			 <li><a href="index.html">Home</a></li>
-			 <li class="active">Products</li>
+			<ol class="breadcrumb">
+		  <li><a href="index.html">Home</a></li>
+		  <li class="active">Products</li>
 		 </ol>
-		 <!-- start content -->	
-			<div class="col-md-9 det">
-				  <div class="single_left">
-					 <div class="grid images_3_of_2">
-						 <ul id="etalage">
-							<li>
-								<a href="optionallink.html">
-									<img class="etalage_thumb_image" src="images/ss1.jpg" class="img-responsive" />
-									<img class="etalage_source_image" src="images/ss1.jpg" class="img-responsive" title="" />
-								</a>
-							</li>
-							<li>
-								<img class="etalage_thumb_image" src="images/ss2.jpg" class="img-responsive" />
-								<img class="etalage_source_image" src="images/ss2.jpg" class="img-responsive" title="" />
-							</li>							
-						    <li>
-								<img class="etalage_thumb_image" src="images/ss4.jpg" class="img-responsive"  />
-								<img class="etalage_source_image" src="images/ss4.jpg"class="img-responsive"  />
-							</li>
-						 </ul>
-						 <div class="clearfix"></div>		
-				      </div>
-				  </div>
-				  <div class="single-right">
-					 <h3>SPENCER 3+1+1 SOFA SET WITH 5 BIG CUSHIONS & WOODEN HANDLE</h3>
-					 <div class="id"><h4>ID: SB2379</h4></div>
-					  <form action="" class="sky-form">
-						     <fieldset>					
-							   <section>
-							     <div class="rating">
-									<input type="radio" name="stars-rating" id="stars-rating-5">
-									<label for="stars-rating-5"><i class="icon-star"></i></label>
-									<input type="radio" name="stars-rating" id="stars-rating-4">
-									<label for="stars-rating-4"><i class="icon-star"></i></label>
-									<input type="radio" name="stars-rating" id="stars-rating-3">
-									<label for="stars-rating-3"><i class="icon-star"></i></label>
-									<input type="radio" name="stars-rating" id="stars-rating-2">
-									<label for="stars-rating-2"><i class="icon-star"></i></label>
-									<input type="radio" name="stars-rating" id="stars-rating-1">
-									<label for="stars-rating-1"><i class="icon-star"></i></label>
-									<div class="clearfix"></div>
-								 </div>
-							  </section>
-						    </fieldset>
-					  </form>
-					  <div class="cost">
-						 <div class="prdt-cost">
-							 <ul>
-								 <li>MRP: <del>Rs 55000</del></li>								 
-								 <li>Sellling Price:</li>
-								 <li class="active">Rs 35000</li>
-								 <a href="#">BUY NOW</a>
-							 </ul>
-						 </div>
-						 <div class="check">
-							 <p><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Enter pin code for delivery & availability</p>
-							 <form class="navbar-form navbar-left" role="search">
-								  <div class="form-group">
-									<input type="text" class="form-control" placeholder="Enter Pin code">
-								  </div>
-								  <button type="submit" class="btn btn-default">Verify</button>
-							 </form>
-						 </div>
-						 <div class="clearfix"></div>
-					  </div>
-					  <div class="item-list">
-						 <ul>
-							 <li>Material: Solid Wood</li>
-							 <li>Color: Brown</li>
-							 <li>Style: Solid Wood</li>
-							 <li>Brand: Corelle</li>
-							 <li><a href="#">Click here for more details</a></li>
-						 </ul>
-					  </div>
-					  <div class="single-bottom1">
-						<h6>Details</h6>
-						<p class="prod-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
-					 </div>					 
-				  </div>
-				  <div class="clearfix"></div>
-				  <div class="sofaset-info">
-						 <h4>Product Summary SPENCER 3+1+1 SOFA SET WITH 5 BIG CUSHIONS & WOODEN HANDLE</h4>
-						 <ul>
-							 <li>Dimensions: 3 Seater: Length 208 x Width 81 x Height 91.5 cm and 1 Seater: Length 99 x Width 81 x Height 91.5 cm</li>
-							 <li>Assembly Type: Pre Assembled</li>
-							 <li>Material: Wooden Structure, Chemical Treated And Seasoned Wood, 19 mm and 12 mm Commercial Ply and Mdf Used On Visible Parts</li>
-							 <li>Looks amazing in a contemporary setting</li>
-							 <li>Colour: Brown Jute, Sheron Brown</li>
-							 <li>Type: Spencer 3 plus 1 plus 1 Sofa Set With 5 Big Cushions and 6 Small Cushions, Wooden Handle</li>
-							 <li>Long lasting, durable and easy to use product</li>
-							 <li>Contents: 3 Pc</li>
-							 <li>Delivery Time: 7 to 10 days from the Day of Dispatch</li>
-							 <li>Very classy and contemporary design</li>
-							 <li>SUPC: SHG21458689652</li>
-							 <li>Material: High Density Foam and Fabric</li>
-						 </ul>
-				  </div>				  					
-		    </div>
+			<h2>OUR PRODUCTS</h2>			
+		 <div class="col-md-9 product-model-sec">
+					 <a href="single.html"><div class="product-grid love-grid">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="images/p1.jpg" class="img-responsive" alt=""/>
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button class="btns"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</button>
+							</h4>
+							</div>
+						</div></a>						
+						<div class="product-info simpleCart_shelfItem">
+							<div class="product-info-cust prt_name">
+								<h4>5 Seater sofa set</h4>
+								<p>ID: SR4598</p>
+								<span class="item_price">$187.95</span>								
+								<input type="text" class="item_quantity" value="1" />
+								<input type="button" class="item_add items" value="ADD">
+							</div>													
+							<div class="clearfix"> </div>
+						</div>
+					</div>	
+					
+					 <a href="single.html"><div class="product-grid love-grid">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="images/p2.jpg" class="img-responsive" alt=""/>
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button class="btns"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</button>
+							</h4>
+							</div>
+						</div></a>					
+						<div class="product-info simpleCart_shelfItem">
+							<div class="product-info-cust">
+								<h4>Fabric Sofa set</h4>
+								<p>ID: SR4598</p>
+								<span class="item_price">$187.95</span>
+								<input type="text" class="item_quantity" value="1" />
+								<input type="button" class="item_add items" value="ADD">	
+							</div>										
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					
+					<a href="single.html"><div class="product-grid love-grid">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="images/p3.jpg" class="img-responsive" alt=""/>
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button class="btns"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</button>
+							</h4>
+							</div>
+						</div>	</a>					
+						<div class="product-info simpleCart_shelfItem">
+							<div class="product-info-cust">
+								<h4>King Dior Bed</h4>
+								<p>ID: SR4598</p>
+								<span class="item_price">$187.95</span>
+								<input type="text" class="item_quantity" value="1" />
+								<input type="button" class="item_add items" value="ADD">	
+							</div>												
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					
+					<a href="single.html"><div class="product-grid love-grid">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="images/p4.jpg" class="img-responsive" alt=""/>
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button class="btns"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</button>
+							</h4>
+							</div>
+						</div></a>						
+						<div class="product-info simpleCart_shelfItem">
+							<div class="product-info-cust">
+								<h4>Newlook Sofa Set</h4>
+								<p>ID: SR4598</p>
+								<span class="item_price">$187.95</span>
+								<input type="text" class="item_quantity" value="1" />
+								<input type="button" class="item_add items" value="ADD">	
+							</div>													
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					
+					<a href="single.html"><div class="product-grid love-grid">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="images/p5.jpg" class="img-responsive" alt=""/>
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button class="btns"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</button>
+							</h4>
+							</div>
+						</div></a>						
+						<div class="product-info simpleCart_shelfItem">
+							<div class="product-info-cust">
+								<h4>Maxico Sofa Set</h4>
+								<p>ID: SR4598</p>
+								<span class="item_price">$187.95</span>
+								<input type="text" class="item_quantity" value="1" />
+								<input type="button" class="item_add items" value="ADD">	
+							</div>												
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					
+					<a href="single.html"><div class="product-grid love-grid">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="images/p6.jpg" class="img-responsive" alt=""/>
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button class="btns"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</button>
+							</h4>
+							</div>
+						</div></a>						
+						<div class="product-info simpleCart_shelfItem">
+							<div class="product-info-cust">
+								<h4>CozyWilm Sofa Set</h4>
+								<p>ID: SR4598</p>
+								<span class="item_price">$187.95</span>
+								<input type="text" class="item_quantity" value="1" />
+								<input type="button" class="item_add items" value="ADD">	
+							</div>													
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<a href="single.html"><div class="product-grid love-grid">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="images/p7.jpg" class="img-responsive" alt=""/>
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button class="btns"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</button>
+							</h4>
+							</div>
+						</div></a>						
+						<div class="product-info simpleCart_shelfItem">
+							<div class="product-info-cust">
+								<h4>Irony Seater</h4>
+								<p>ID: SR4598</p>
+								<span class="item_price">$187.95</span>
+								<input type="text" class="item_quantity" value="1" />
+								<input type="button" class="item_add items" value="ADD">	
+							</div>													
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<a href="single.html"><div class="product-grid love-grid">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="images/p8.jpg" class="img-responsive" alt=""/>
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button class="btns"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</button>
+							</h4>
+							</div>
+						</div></a>						
+						<div class="product-info simpleCart_shelfItem">
+							<div class="product-info-cust">
+								<h4>Rory 5 Seater</h4>
+								<p>ID: S4BJ87</p>
+								<span class="item_price">$187.95</span>
+								<input type="text" class="item_quantity" value="1" />
+								<input type="button" class="item_add items" value="ADD">	
+							</div>													
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+					<a href="single.html"><div class="product-grid love-grid">
+						<div class="more-product"><span> </span></div>						
+						<div class="product-img b-link-stripe b-animate-go  thickbox">
+							<img src="images/p9.jpg" class="img-responsive" alt=""/>
+							<div class="b-wrapper">
+							<h4 class="b-animate b-from-left  b-delay03">							
+							<button class="btns"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</button>
+							</h4>
+							</div>
+						</div></a>						
+						<div class="product-info simpleCart_shelfItem">
+							<div class="product-info-cust">
+								<h4>Sofa CumBed</h4>
+								<p>ID: SR4598</p>
+								<span class="item_price">$187.95</span>
+								<input type="text" class="item_quantity" value="1" />
+								<input type="button" class="item_add items" value="ADD">	
+							</div>													
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+			</div>
 			<div class="rsidebar span_1_of_left">
-				<section  class="sky-form">
+				 <section  class="sky-form">
 					 <div class="product_right">
 						 <h4 class="m_2"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span>Categories</h4>
 						 <div class="tab1">
@@ -830,11 +909,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Other(50)</label>
 						 </div>
 					 </div>
-				 </section> 				  
-				 <section  class="sky-form">
+				 </section> 				 				 
+				   <section  class="sky-form">
 						<h4><span class="glyphicon glyphicon-minus" aria-hidden="true"></span>Price</h4>
 							<ul class="dropdown-menu1">
-								 <li><a href="">								                
+								 <li><a href="">								               
 								<div id="slider-range"></div>							
 								<input type="text" id="amount" style="border: 0; font-weight: NORMAL;   font-family: 'Arimo', sans-serif;" />
 							 </a></li>			
@@ -849,16 +928,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								range: true,
 								min: 0,
 								max: 400000,
-								values: [ 2500, 350000 ],
+								values: [ 8500, 350000 ],
 								slide: function( event, ui ) {  $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
 								}
 					 });
 					$( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) + " - $" + $( "#slider-range" ).slider( "values", 1 ) );
 
-					});//]]>  
-
+					});//]]> 
 					</script>
-					<section  class="sky-form">
+					 <!---->
+					 <section  class="sky-form">
 						<h4><span class="glyphicon glyphicon-minus" aria-hidden="true"></span>Type</h4>
 							<div class="row row1 scroll-pane">
 								<div class="col col-4">
@@ -875,7 +954,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 							</div>
 				   </section>
-				 <section  class="sky-form">
+				   		<section  class="sky-form">
 						<h4><span class="glyphicon glyphicon-minus" aria-hidden="true"></span>Brand</h4>
 							<div class="row row1 scroll-pane">
 								<div class="col col-4">
@@ -891,12 +970,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Zumba</label>
 								</div>
 							</div>
-				   </section>			  									 			 
-			   </div>
-		</div>	     				
-		     <div class="clearfix"></div>
-	  </div>	 
-</div>
+				   </section>			
+			 </div>				 
+	      </div>
+		</div>
+</div>	
 <!---->
 <div class="footer-content">
 	 <div class="container">
@@ -949,6 +1027,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	 </div>
 </div>
 <!---->
+
 <div class="footer">
 	 <div class="container">
 		 <div class="store">
@@ -960,13 +1039,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 <li><a href="#">|</a></li>
 				 <li><a href="#">China</a></li>
 				 <li><a href="#">|</a></li>
-				 <li><a href="#">Thane</a></li>
+				 <li><a href="#">Germany</a></li>
 				 <li><a href="#">|</a></li>
-				 <li><a href="#">Chennai</a></li>
+				 <li><a href="#">Japan</a></li>
 				 <li><a href="#">|</a></li>
 				 <li><a href="#">Armenia</a></li>
 				 <li><a href="#">|</a></li>
-				 <li><a href="#">Kolkata</a></li>
+				 <li><a href="#">South Africa</a></li>
 				 <li><a href="#">|</a></li>
 				 <li><a href="#">Malaysia</a></li>
 				 <li><a href="#">|</a></li>
@@ -974,7 +1053,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 <li><a href="#">|</a></li>
 				 <li><a href="#">Mumbai</a></li>
 				 <li><a href="#">|</a></li>
-				 <li><a href="#">Kerala</a></li>
+				 <li><a href="#">Portugal</a></li>
 				 <li><a href="#">|</a></li>
 				 <li><a href="#">Spain</a></li>
 				 <li><a href="#">|</a></li>
@@ -990,7 +1069,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			 </ul>
 		 </div>		 
 		 <div class="copywrite">
-			 <p>Copyright © 2015 Furnyish All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+			 <p>Copyright © 2015 Furnyish Store All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
 		 </div>			 
 		 </div>
 	 </div>
